@@ -1,0 +1,37 @@
+
+.square {
+    background-color: rgb(63, 65, 180);
+    width: 300px;
+    height: 200px;
+}
+
+main > div:first-child {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    text-align: center;
+}
+
+.active {
+    background-color: rgb(8, 25, 172);
+}
+
+#contenue {
+    background-color: rgb(8, 25, 172);
+    width: 49.3%;
+    height: 200px;
+    margin: 30px 0;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+}
+
+fieldset {
+    border: none;
+    display: flex;
+    flex-direction: column;
+}

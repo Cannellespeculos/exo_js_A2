@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>carre</title>
+    <link rel="stylesheet" href="carre.css">
+</head>
+<body>
+    <main>
+        <div>
+            <div class="square">menu 1</div>
+        <div class="square">menu 2</div>
+        <div class="square">menu 3</div>
+
+        </div>
+        
+        <div id="contenue"></div>
+
+        <form id="form">
+            <label for="monText">mon texte <input type="text" name="monText" id="monText"></label>
+            <label for="Password">mon password <input type="password" name="Password" id="password"></label>
+            <label for="checkbox">case à cochée <input type="checkbox" name="check" id="check" value="checked"></label>
+            <fieldset id="field">
+                <label>chosir un bouton</label>
+            <label for="radio"><input type="radio" name="radio" value="btn1"> bouton 1</label>
+            <label for="radio"><input type="radio" name="radio" value="btn2"> bouton 2</label>
+            <label for="radio"><input type="radio" name="radio" value="btn3"> bouton 3</label>
+            <label for="radio"><input type="radio" name="radio" value="btn4"> bouton 4</label>
+            <label for="radio"><input type="radio" name="radio" value="btn5"> bouton 5</label>
+            <label for="radio"><input type="radio" name="radio" value="btn6"> bouton 6</label>
+
+            </fieldset>
+            
+            <label>choisir une valeur</label>
+            <select multiple name="select" id="select">
+                <option value="premier">premier</option>
+                <option value="deuxieme">deuxieme</option>
+                <option value="troisieme">troisieme</option>
+            </select>
+
+            <label for="textArea">commentaire <textarea name="textArea" id="textArea" cols="30" rows="5"></textarea></label>
+            <button type="submit" id="btnForm">alert formulaire</button>
+        </form>
+
+
+        
+    </main>
+
+    <script src="carre.js"></script>
+</body>
+</html>
